@@ -12,6 +12,14 @@ Ta fonction `palindrome()` doit :
 - ✅ Ignorer la **ponctuation**, les **espaces** et la **casse**
 - ✅ Utiliser uniquement **JavaScript vanilla**
 
+---
+
+## 🔗 Liens
+
+➡️https://olivierf47.github.io/palindrom-checker/
+
+---
+
 ### 🔍 Cas de test à valider
 
 ```js
@@ -27,9 +35,3 @@ palindrome("My age is 0, 0 si ega ym.")  // true
 palindrome("1 eye for of 1 eye.")        // false
 palindrome("0_0 (: /-\\ :) 0-0")         // true
 palindrome("five|\_/|four")              // false
-
----
-
-## 🔗 Liens
-
-➡️https://olivierf47.github.io/palindrom-checker/
