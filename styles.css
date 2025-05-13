@@ -4,11 +4,11 @@
     padding: 0;
 }
 :root {
-    --colorbody: #0f172a;           /* Bleu nuit très foncé – fond général */
-    --colorsection: #1e293b;        /* Bleu-gris foncé – carte ou section centrale */
-    --colorbutton: #6366f1;         /* Indigo – boutons */
-    --colorbutton-hover: #818cf8;   /* Indigo clair – hover */
-    --colortext: #f1f5f9;           /* Blanc cassé – texte principal */
+    --colorbody: #0f172a;           
+    --colorsection: #1e293b;        
+    --colorbutton: #6366f1;         
+    --colorbutton-hover: #818cf8;   
+    --colortext: #f1f5f9;           
 }
 html{
 color:var(--colortext)
