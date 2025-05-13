@@ -8,9 +8,9 @@ function palindrome(){
   if (entree === ''){
     alert("Please input a value");
   }else if (entree === entree2){
-    result.innerText = text.value + " is a palindrome"
+    result.innerText = entree + " is a palindrome"
   } else{
-    result.innerText = text.value + " is not a palindrome"
+    result.innerText = entree + " is not a palindrome"
   }
 }
 
