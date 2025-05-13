@@ -16,7 +16,7 @@ Ta fonction `palindrome()` doit :
 
 ## 🔗 Liens
 
-➡️https://olivierf47.github.io/palindrom-checker/
+➡️https://olivierf47.github.io/palindrome-checker/
 
 ---
 
