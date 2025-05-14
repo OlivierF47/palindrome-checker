@@ -3,7 +3,8 @@ let text = document.getElementById('text-input');
 const result = document.getElementById('result');
 const form = document.getElementById('form');
 
-function palindrome(){
+function palindrome(event){
+  event.preventDefault();
   let entree = text.value.replace(/\b(?!.*[\p{L}].*[\p{L}])[\p{L}\p{M}\p{N}\p{P}]+\b/gu, '').toLowerCase();
   let entree2 = [...entree].reverse().join('');
   if (entree === ''){
@@ -15,9 +16,6 @@ function palindrome(){
   }
 }
 
-function stayLoad (event){
-  event.preventDefault();
-}
 
-form.addEventListener("submit",stayLoad)
-btn.addEventListener("click", palindrome);
+
+form.addEventListener("submit", palindrome);
