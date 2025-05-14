@@ -1,6 +1,7 @@
 const btn = document.getElementById('check-btn');
 let text = document.getElementById('text-input');
 const result = document.getElementById('result');
+const form = document.getElementById('form');
 
 function palindrome(){
   let entree = text.value.replace(/\b(?!.*[\p{L}].*[\p{L}])[\p{L}\p{M}\p{N}\p{P}]+\b/gu, '').toLowerCase();
@@ -14,4 +15,9 @@ function palindrome(){
   }
 }
 
+function stayLoad (event){
+  event.preventDefault();
+}
+
+form.addEventListener("submit",stayLoad)
 btn.addEventListener("click", palindrome);
