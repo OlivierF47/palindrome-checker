@@ -3,7 +3,7 @@ let text = document.getElementById('text-input');
 const result = document.getElementById('result');
 
 function palindrome(){
-  let entree = text.value.replace(/[^a-z0-9]/gi, '').toLowerCase();
+  let entree = text.value.replace(/\b(?!.*[\p{L}].*[\p{L}])[\p{L}\p{M}\p{N}\p{P}]+\b/gu, '').toLowerCase();
   let entree2 = [...entree].reverse().join('');
   if (entree === ''){
     alert("Please input a value");
